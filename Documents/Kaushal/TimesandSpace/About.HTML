@@ -4,28 +4,68 @@
         <title>
             About
         </title>
-        <body>
-            <h1> This is the About page </h1>
-            <p>
-                What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                
-                Why do we use it?
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
-                layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
-                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page
-                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites
-                still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                (injected humour and the like).
+        <style>
+            body{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }   
 
-            </p>
+            header{
+                background-color: rgb(63, 65, 64);
+                color: rgb(255, 255, 255);
+            }
+            footer {
+                background-color:rgb(0, 0, 0);
+                color:whitesmoke;
+                text-align:left;
+                padding-bottom: 10px;
+                position:fixed;
+                width:100%;
+                bottom:0;
+    
+            }
+            .copyright {
+                text-align: center;
+                font-size: smaller;
+            }
+        </style>
+        <body>
+            <h1 class="display-4"> About </h1>
+            <div class="clearfix">
+                <p>
+                An IT consulting firm to help local businesses and other entities establish their web/mobile presence and grow the business.</p> 
+                <p>The business will also assist clients to 
+                update existing websites, mobile applications, 
+                perform SEO optimization, social media marketing and others.
+                </p>
+             </div>
             <a href="index.html"></a>
             <a href="Services.HTML"></a>
             <a href="Contact.html"></a>
         </body>
     </head>
+
+    <!-- Footer-->
+    <footer>
+        
+        <h3 class="footer-title" style="font-size: x-large" >
+            Contact Info
+        </h3>
+    
+        <!---AddressWidget-->
+        <ul class="address-widget">
+    
+            <p> 1617 Camino La Canada, Santa Fe </p>
+            <p> New Mexico, USA, 87501</p>
+            <p> 123456789 </p>
+    
+        </ul>
+  
+    
+    <!-- Copyright-->
+    <div class="copyright">
+         @2024 Copyright:
+        <a class="white-link" href="https://Timespacetech.com/">TimespaceTech.com</a>
+        All Rights Reserved
+    </div>
+    </footer>
 </html>
